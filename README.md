@@ -1,5 +1,7 @@
 # digital-cv
-Digital CV for Mikyla Peters
+*Digital CV powered by Jekyll and GitHub Pages.*
+
+🎯 Week 1️⃣ of 52 Weeks of Code
 
 ## Step-by-step Process
 
@@ -56,3 +58,22 @@ jekyll serve
 ```
 3. Open the new website by navigating to ```http://localhost:4000/``` in a browser.
 
+## Resources
+A collection of resources that helped me along the way:
+
+Examples of what I wanted to achieve
+- https://github.com/sproogen/modern-resume-theme
+- https://github.com/varadbhogayata/varadbhogayata.github.io
+- https://github.com/tarrex/online-resume
+- https://github.com/jglovier/resume-template
+
+Helpful tips and tricks
+- https://jekyllrb.com/docs/continuous-integration/github-actions/
+- https://r3id.medium.com/jekyll-file-structure-f28c496f8dc0
+- https://codepen.io/hackzilla/pen/qaawde
+
+Style of resume that I liked the look of
+- https://www.pinterest.com.au/pin/993325261537571395/
+- https://www.pinterest.com.au/pin/326159198024923044/
+- https://www.pinterest.com.au/pin/639089003346624387/
+- https://www.pinterest.com.au/pin/75153887525201385/
