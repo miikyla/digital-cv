@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+
+            {% include header.html %}
+
+            {% if site.section_experience %}
+                {% include experience.html %}
+            {% endif %}
+
+            {% if site.section_education %}
+                {% include education.html %}
+            {% endif %}
+
+            {% if site.section_projects %}
+                {% include projects.html %}
+            {% endif %}
+
+            {% if site.section_skills %}
+                {% include projects.html %}
+            {% endif %}
+
+            {% if site.section_certificates %}
+                {% include certificates.html %}
+            {% endif %}
+
+            {% if site.section_extra_curriculars %}
+                {% include extra_curriculars.html %}
+            {% endif %}
+
+            {% if site.section_awards %}
+                {% include awards.html %}
+            {% endif %}
+
+            {% include footer.html %}
+
+        </div>
+    </body>
+</html>
