@@ -7,7 +7,12 @@
 
 <div class="content-extra-curriculars">
   <h3 class="content-title">{{ ec.name }}</h3>
-  <h4 class="content-location">{{ ec.location }}</h4>
+
+  <ul class="content-extracurricular-details">
+    <li><h4>{{ ec.duration }}</h4></li>
+    <li><h4> | </h4></li>
+    <li><h4>{{ ec.location }}</h4></li>
+  </ul>
 
   <ul class="content-certificate-dotpoints">
     {% for dotpoint in ec.summary %}

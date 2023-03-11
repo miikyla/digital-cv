@@ -1,10 +1,12 @@
 - name: Example Team Member
+  duration: 2020 &mdash; 2022
   location: University of Example, Australia
   summary:
   - dotpoint: Lead of example 1.
   - dotpoint: Lead of example 2.
 
 - name: Example Manager
+  duration: 2020 &mdash; 2022
   location: Sports Example, Australia
   summary:
   - dotpoint: Manager of example 1.
