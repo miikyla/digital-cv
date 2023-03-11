@@ -1,0 +1,21 @@
+<section class="section-certificates">
+
+<h2 class="section-head">Certifications</h2>
+<hr>
+    
+{% for certificate in site.data.certificates %}
+<div class="content-certificates">
+  <h3 class="content-title">{{ certificate.name }}</h3>
+
+  <ul class="content-certificate-details">
+    <li><h4>{{ certificate.issued }}</h4></li>
+    <li><h4>{% if certificate.expiry-exists %} | {{ certificate.expiry }} {% endif %}</h4></li>
+    <li><h4>{% if certificate.id-exists %} | {{ certificate.id }} {% endif %}</h4></li>
+  </ul>
+
+  <p class="content-summary">{{ certificate.summary }}</p>
+</div>
+
+{% endfor %}
+    
+</section>
