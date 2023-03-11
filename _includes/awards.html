@@ -1,0 +1,18 @@
+<section class="section-awards">
+
+<h2 class="section-header">Awards</h2>
+<hr>
+
+{% for award in site.data.awards %}
+<div class="content-awards">
+    <h3 class="content-title">{{ award.award }}</h3>
+
+    <ul class="content-awards-details">
+      <li><h4>{{ award.issuer }}</h4></li>
+      <li><h4> | </h4></li>
+      <li><h4>{{ award.year }}</h4></li>
+    </ul>
+</div>
+{% endfor %}
+    
+</section>
