@@ -11,41 +11,44 @@ sass:
   style:    compressed
 
 # CV Contact Information
-contact_name:       "Firstname LastName"
+contact-name:       "Firstname Lastname"
 
-show_email:         true
-contact_email:      "example@example.com"
+resume-title:       "Software Engineer"
 
-show_phone:         true
-contact_phone:      "(+61) 400 000 000"
+show-email:         true
+contact-email:      "example@example.com"
 
-show_location:      true
-contact_location:   "Example, Australia"
+show-phone:         true
+contact-phone:      "(+61) 400 000 000"
 
-contact_photo:      true
-contact_photo_file: "_data/images/example.png"
+show-location:      true
+contact-location:   "Example, Australia"
 
-executive_summary:      true
-executive_summary_text: "<p>Write executive summary here.</p>"
+contact-photo:      true
+contact-photo-file: "assets/images/headshot.jpg"
+
+executive-summary:      true
+executive-summary-text: "Write executive summary here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+show-references:    false
 
 # CV sections
-section_awards:             true
-section_certificates:       true
-section_contact:            true
-section_education:          true
-section_experience:         true
-section_extra_curriculars:  true
-section_languages:          true
-section_projects:           true
-section_skills:             true
+section-awards:             true
+section-certificates:       true
+section-contact:            true
+section-education:          true
+section-experience:         true
+section-extra-curriculars:  true
+section-languages:          true
+section-projects:           true
+section-skills:             true
+section-references:         true
 
 # Additional links
-show_linkedin:          true
-show_github:            true
-show_stackoverflow:     true
-show_resume_pdf:        true
+show-linkedin:          true
+show-github:            true
+show-resume-pdf:        true
 
-linkedin_url:           "https://www.linkedin.com/in/.../"
-github_url:             "https://github.com/..."
-stackoverflow_url:      "https://stackoverflow.com/users/.../..."
-resume_pdf_file:        "_data/files/resume.pdf"
+linkedin-url:           "https://www.linkedin.com/in/.../"
+github-url:             "https://github.com/..."
+resume-pdf-file:        "assets/files/resume.pdf"
