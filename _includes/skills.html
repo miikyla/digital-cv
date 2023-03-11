@@ -1,0 +1,20 @@
+<section class="section-skills">
+
+<h2 class="section-header">Skills</h2>
+<hr>
+
+{% for skill in site.data.skills %}
+
+<div class="content-skills">
+    <h4 class="content-title">{{ skill.skill }}</h4>
+
+    <ul class="content-skills-dotpoint">
+      {% for dotpoint in skill.description %}
+        <li class="content-dotpoint">{{ dotpoint.dotpoint }}</li>
+      {% endfor %}
+    </ul>
+</div>
+
+{% endfor %}
+
+</section>

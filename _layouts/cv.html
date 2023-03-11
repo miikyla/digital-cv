@@ -16,9 +16,6 @@
       {% include education.html %}
     {% endif %}
 
-            {% if site.section_skills %}
-                {% include projects.html %}
-            {% endif %}
     {% if site.section-projects %}
       {% include projects.html %}
     {% endif %}
@@ -26,6 +23,9 @@
             {% if site.section_certificates %}
                 {% include certificates.html %}
             {% endif %}
+    {% if site.section-skills %}
+      {% include skills.html %}
+    {% endif %}
 
     {% if site.section-certificates %}
       {% include certificates.html %}
