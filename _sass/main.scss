@@ -109,3 +109,12 @@ a {
       }
     }
   }
+.section-footer {
+  padding-top: calc($padding-px / 2);
+
+  .content-footer {
+    color: $text-tertiary-colour;
+    font-size: $tiny-font-px;
+    text-align: center;
+  }
+}
