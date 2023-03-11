@@ -109,6 +109,32 @@ a {
       }
     }
   }
+
+  .section-experience, .section-education, .section-certificates, .section-languages, .section-awards {
+    .content-experience-details, .content-education-details, .content-certificates, .content-languages, .content-awards {
+      display: block;
+      font-size: $small-font-px;
+      margin: 0;
+      padding: 0;
+
+      ul, li { 
+        list-style-type: none;
+        list-style-position: inside;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+      }
+
+      .content-experience-dotpoint {
+        ul, li {
+          list-style-position:inside;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
+
 .section-footer {
   padding-top: calc($padding-px / 2);
 
