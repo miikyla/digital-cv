@@ -37,17 +37,23 @@ a {
   h1 {
     margin-top: calc($padding-px/2);
     margin-bottom: calc($padding-px/2);
+    font-size: $title-font-px;
   }
     
   h2, h3, h4 {
-    margin-top: calc($padding-px/8);
-    margin-bottom: calc($padding-px/8);
+    margin-top: calc($padding-px/4);
+    margin-bottom: calc($padding-px/4);
   }
 
   .section-title {
     text-transform: $title-text-transform;
-    margin-top: calc($padding-px/2);
+    margin-top: calc(2 * $padding-px);
     margin-bottom: calc($padding-px/2);
+    font-size: $large-font-px;
+  }
+
+  .content-title {
+    font-size: $middle-font-px;
   }
 
   .section-header {
@@ -118,8 +124,8 @@ a {
     text-align: justify;
   }
 
-  .section-experience, .section-education, .section-certificates, .section-languages, .section-awards {
-    .content-experience-details, .content-education-details, .content-certificates, .content-languages, .content-awards {
+  .section-experience, .section-education, .section-certificates, .section-languages, .section-awards, .section-projects, .section-extracurriculars {
+    .content-experience-details, .content-education-details, .content-certificates, .content-languages, .content-awards, .content-project-details, .content-extracurricular-details {
       display: block;
       font-size: $small-font-px;
       margin: 0;
