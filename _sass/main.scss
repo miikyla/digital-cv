@@ -1,0 +1,28 @@
+@import
+  "variables"
+;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $background-colour;
+
+  font: $default-font-family;
+  color: $text-primary-colour;
+
+  padding: $padding-px;
+}
+
+a {
+  &,
+  
+  &:hover {
+    color: $text-secondary-colour;
+  }
+
+  &:visited {
+    color: $text-tertiary-colour;
+  }
+}
