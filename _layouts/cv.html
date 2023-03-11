@@ -36,6 +36,9 @@
             {% endif %}
 
             {% include footer.html %}
+    {% if site.section-references %}
+      {% include references.html %}
+    {% endif %}
   </div>
 
     {% include footer.html %}
