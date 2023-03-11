@@ -110,6 +110,14 @@ a {
     }
   }
 
+  .content-experience-dotpoint, .content-skills-dotpoint, .content-certificate-dotpoints {
+    text-align: justify;
+  }
+
+  .content-project-description, .content-certificate-description, .content-award-description {
+    text-align: justify;
+  }
+
   .section-experience, .section-education, .section-certificates, .section-languages, .section-awards {
     .content-experience-details, .content-education-details, .content-certificates, .content-languages, .content-awards {
       display: block;
