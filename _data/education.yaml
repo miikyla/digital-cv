@@ -1,0 +1,11 @@
+# Uncomment sections as required
+
+- degree: PhD in Example
+  university: University of Example
+  location: Example, Antartica
+  duration: 2022 &mdash; 2025
+
+- degree: Bachelor of Example (Honours)
+  university: University of Example
+  location: Example, Australia
+  duration: 2018 &mdash; 2022

@@ -1,0 +1,17 @@
+# Uncomment sections as required
+
+- company: Example Engineering
+  location: Example, Australia
+  position: Head of Example
+  duration: Oct, 2013 &mdash; Present
+  summary: 
+    - dotpoint: Example 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    - dotpoint: Example 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+- company: AAA Engineering
+  location: AAA, Australia
+  position: Head of AAA
+  duration: Oct, 2013 &mdash; Present
+  summary: 
+    - dotpoint: AAA 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    - dotpoint: AAA 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
