@@ -1,0 +1,27 @@
+<section class="section-experience">
+
+<h2 class="section-title">Experience</h2>
+<hr>
+
+{% for job in site.data.experience %}
+  <div class="content-experience">
+    <h3 class="content-title">{{ job.position }}</h3>
+
+    <ul class="content-experience-details">
+      <li><h4>{{ job.company }}</h4></li>
+      <li><h4> | </h4></li>
+      <li><h4>{{ job.location }}</h4></li>
+      <li><h4> | </h4></li>
+      <li><h4>{{ job.duration }}</h4></li>
+    </ul>
+
+    <ul class="content-experience-dotpoint">
+      {% for dotpoint in job.summary %}
+        <li class="content-dotpoint">{{ dotpoint.dotpoint }}</li>
+      {% endfor %}
+    </ul>
+
+  </div>
+{% endfor %}
+
+</section>

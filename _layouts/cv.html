@@ -11,6 +11,9 @@
   <div class="cv-wrapper">
     {% include header.html %}
 
+    {% if site.section-experience %}
+      {% include experience.html %}
+    {% endif %}
 
     {% if site.section-education %}
       {% include education.html %}
