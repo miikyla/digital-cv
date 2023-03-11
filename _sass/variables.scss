@@ -1,0 +1,29 @@
+// Fonts
+$default-font-family: "Open Sans", sans-serif !default;
+$default-font-weight: 100px !default;
+
+$tiny-font-px:      8px   !default;
+$small-font-px:     12px  !default;
+$middle-font-px:    14px  !default;
+$large-font-px:     32px  !default;
+$title-font-px:     48px  !default;
+
+$title-text-transform:   uppercase  !default;
+
+// Spacing
+
+$padding-px:        20px    !default;
+$wrapper-width:     1000px  !default;
+
+// Sizing
+$img-size-px:       100px           !default;
+$small-icon-px:     $small-font-px  !default;
+$large-icon-px:     50px            !default;
+
+// Colours
+$text-primary-colour:       #1d1d1d;
+$text-secondary-colour:     #2f2f2f;
+$text-tertiary-colour:      #5c5c5c;
+
+$foreground-colour:         #fcfcfc;
+$background-colour:         #ababab;
