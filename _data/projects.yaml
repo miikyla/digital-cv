@@ -1,0 +1,14 @@
+# Uncomment sections as required
+
+- project: Example Name
+  role: Example Developer
+  duration: 2020 &mdash; 2022
+  url-exists: true
+  url: "http://www.example.com.au"
+  description: Brief description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+- project: Example Organisation
+  role: Example Marketing
+  duration: 2020 &mdash; 2022
+  url-exists: false
+  description: Brief description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

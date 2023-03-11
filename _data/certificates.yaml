@@ -1,0 +1,22 @@
+# Uncomment sections as required
+
+- name: "Certificate in Example"
+  issued: "2020"
+  expiry-exists: true
+  expiry: "2022"
+  id-exists: true
+  id: "ABCD1234"
+  summary: "Ability to example. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+- name: "Certificate in AAA"
+  issued: "2021"
+  expiry-exists: false
+  id-exists: true
+  id: "ABCD1234"
+  summary: "Ability to example. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+- name: "Certificate in BBB"
+  issued: "2022"
+  expiry-exists: false
+  id-exists: false
+  summary: "Ability to example. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."

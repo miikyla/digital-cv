@@ -1,11 +1,11 @@
 # digital-cv
 *Digital CV powered by Jekyll and GitHub Pages.*
 
-🎯 Week 1️⃣ of 52 Weeks of Code
+🎯 Month 1️⃣ of 12 Months of Code
 
 ## Step-by-step Process
 
-> Docker image for the following steps can be found at: 
+> Docker image for the following steps can be found at: [TBA]
 
 
 1. Do the required setup depending on the operating system you're running 
@@ -71,6 +71,7 @@ Helpful tips and tricks
 - https://jekyllrb.com/docs/continuous-integration/github-actions/
 - https://r3id.medium.com/jekyll-file-structure-f28c496f8dc0
 - https://codepen.io/hackzilla/pen/qaawde
+- https://jekyllrb.com/docs/step-by-step/07-assets/
 
 Style of resume that I liked the look of
 - https://www.pinterest.com.au/pin/993325261537571395/

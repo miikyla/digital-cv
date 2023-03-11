@@ -1,0 +1,22 @@
+<section class="section-extracurriculars">
+
+<h2 class="section-header">Extra Curriculars</h2>
+<hr>
+    
+{% for ec in site.data.extra_curriculars %}
+
+<div class="content-extra-curriculars">
+  <h3 class="content-title">{{ ec.name }}</h3>
+  <h4 class="content-location">{{ ec.location }}</h4>
+
+  <ul class="content-certificate-details">
+    {% for dotpoint in ec.summary %}
+      <li><p class="content-dotpoint">{{ dotpoint.dotpoint }}</p></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endfor %}
+    
+</section>
+    

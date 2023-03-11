@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <div class="cv-wrapper">
+    {% include header.html %}
+
+    {% if site.section-experience %}
+      {% include experience.html %}
+    {% endif %}
+
+    {% if site.section-education %}
+      {% include education.html %}
+    {% endif %}
+
+    {% if site.section-projects %}
+      {% include projects.html %}
+    {% endif %}
+
+    {% if site.section-skills %}
+      {% include skills.html %}
+    {% endif %}
+
+    {% if site.section-certificates %}
+      {% include certificates.html %}
+    {% endif %}
+
+    {% if site.section-extra-curriculars %}
+      {% include extra_curriculars.html %}
+    {% endif %}
+
+    {% if site.section-awards %}
+      {% include awards.html %}
+    {% endif %}
+
+    {% if site.section-languages %}
+      {% include languages.html %}
+    {% endif %}
+
+    {% if site.section-references %}
+      {% include references.html %}
+    {% endif %}
+  </div>
+
+    {% include footer.html %}
+</body>
+
+</html>

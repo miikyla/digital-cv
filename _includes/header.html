@@ -1,0 +1,53 @@
+<section class="section-header">
+
+<div class="content-default-contact-information">
+  {% if site.contact-photo == true %}
+    <img class="contact-image" src="{{ site.contact-photo-file }}" alt="Headshot for CV">
+  {% endif %}
+
+  <h1 class="contact-name">{{ site.contact-name }}</h1>
+  <h2 class="contact-resume-title">{{ site.resume-title }}</h2>
+</div>
+
+<div class="content-optional-contact-information">
+  <ul class="contact-information">
+    {% if site.show-email == true %}
+      <li><img class="small-contact-icon" src="assets/icons/email.svg" alt="Email icon"></img></li>
+      <li><h3 class="contact-email">{{ site.contact-email }}</h3></li>
+    {% endif %}
+
+    {% if site.show-phone == true %}
+      <li><img class="small-contact-icon" src="assets/icons/phone.svg" alt="Phone icon"></img></li>
+      <li><h3 class="contact-phone">{{ site.contact-phone }}</h3></li>
+    {% endif %}
+
+    {% if site.show-location == true %}
+      <li><img class="small-contact-icon" src="assets/icons/location.svg" alt="Location icon"></img></li>
+      <li><h3 class="contact-location">{{ site.contact-location }}</h3></li>
+    {% endif %}
+  </ul>
+
+  <ul class="contact-information">
+    {% if site.show-linkedin == true %}
+      <li><div class="large-contact-icon"><a href={{ site.linkedin-url }}><img src="assets/icons/linkedin.svg" alt="LinkedIn icon"></img></a></div></li>
+    {% endif %}
+
+    {% if site.show-github == true %}
+      <li><div class="large-contact-icon"><a href={{ site.github-url }}><img src="assets/icons/github.svg" alt="GitHub icon"></img></a></div></li>
+    {% endif %}
+
+    {% if site.show-resume-pdf == true %}
+      <li><div class="large-contact-icon"><a href={{ site.resume-pdf-file }}><img src="assets/icons/pdf.svg" alt="PDF icon"></img></a></div></li>
+    {% endif %}
+  </ul>
+</div>
+
+{% if site.executive-summary == true %}
+  <div class="content-executive-summary">
+    <h2 class="section-title">Professional Statement</h2>
+    <hr>
+    <p class="executive-summary">{{ site.executive-summary-text }}</p>
+  </div>
+{% endif %}
+
+</section>
