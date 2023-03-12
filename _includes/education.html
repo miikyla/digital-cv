@@ -7,13 +7,14 @@
   <div class="content-education">
 
     <h3 class="content-title">{{ education.degree }}</h3>
-    <h4 class="content-education-details">{{ education.university }}</h4>
 
     <ul class="content-education-details">
-      <li><h4>{{ education.duration }}</h4></li>
+      <li><h4>{{ education.university }}</h4></li>
       <li><h4> | </h4></li>
       <li><h4>{{ education.location }}</h4></li>
     </ul>
+
+    <h4 class="content-education-duration">{{ education.duration }}</h4>
     
   </div>
 {% endfor %}
