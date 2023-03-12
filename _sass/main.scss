@@ -47,7 +47,7 @@ a {
 
   .section-title {
     text-transform: $title-text-transform;
-    margin-top: calc(2 * $padding-px);
+    margin-top: calc(1.5 * $padding-px);
     margin-bottom: calc($padding-px/2);
     font-size: $large-font-px;
   }
@@ -116,36 +116,40 @@ a {
     }
   }
 
-  .content-experience-dotpoint, .content-skills-dotpoint, .content-certificate-dotpoints {
+  .content-experience-dotpoint, .content-project-description, .content-certificate-description, .content-extra-curriculars-dotpoints, .content-award-description, .content-skills-dotpoint {
     text-align: justify;
+    margin-top: calc($padding-px/8);
   }
 
-  .content-project-description, .content-certificate-description, .content-award-description {
-    text-align: justify;
-  }
+  .content-experience-details, .content-education-details, .content-certificates, .content-languages, .content-awards, .content-project-details, .content-extra-curriculars-details {
+    display: block;
+    font-size: $small-font-px;
+    margin: 0;
+    padding: 0;
 
-  .section-experience, .section-education, .section-certificates, .section-languages, .section-awards, .section-projects, .section-extracurriculars {
-    .content-experience-details, .content-education-details, .content-certificates, .content-languages, .content-awards, .content-project-details, .content-extracurricular-details {
-      display: block;
-      font-size: $small-font-px;
+    ul, li { 
+      list-style-type: none;
+      list-style-position: inside;
+      display: inline-block;
       margin: 0;
       padding: 0;
-
-      ul, li { 
-        list-style-type: none;
-        list-style-position: inside;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-      }
-
-      .content-experience-dotpoint {
-        ul, li {
-          list-style-position:inside;
-          text-align: justify;
-        }
-      }
     }
+  }
+
+  .content-education-duration {
+    display: block;
+    font-size: $small-font-px;
+    margin-top: 0;
+    margin-bottom: $padding-px;
+    padding: 0;
+  }
+
+  .content-language-proficiency, .content-references-details {
+    display: block;
+    font-size: $middle-font-px;
+    margin-top: 0;
+    margin-bottom: $padding-px;
+    padding: 0;
   }
 }
 
