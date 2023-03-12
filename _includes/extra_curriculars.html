@@ -1,4 +1,4 @@
-<section class="section-extracurriculars">
+<section class="section-extra-curriculars">
 
 <h2 class="section-title">Extra Curriculars</h2>
 <hr>
@@ -8,15 +8,15 @@
 <div class="content-extra-curriculars">
   <h3 class="content-title">{{ ec.name }}</h3>
 
-  <ul class="content-extracurricular-details">
+  <ul class="content-extra-curriculars-details">
     <li><h4>{{ ec.duration }}</h4></li>
     <li><h4> | </h4></li>
     <li><h4>{{ ec.location }}</h4></li>
   </ul>
 
-  <ul class="content-certificate-dotpoints">
+  <ul class="content-extra-curriculars-dotpoints">
     {% for dotpoint in ec.summary %}
-      <li><p class="content-dotpoint">{{ dotpoint.dotpoint }}</p></li>
+      <li>{{ dotpoint.dotpoint }}</li>
     {% endfor %}
   </ul>
 </div>
