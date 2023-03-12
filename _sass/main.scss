@@ -28,7 +28,7 @@ a {
 }
 
 .cv-wrapper {
-  position: relative;
+  margin: 0 auto;
   background: $foreground-colour;
   max-width: $wrapper-width;
   padding: calc($padding-px * 2);
