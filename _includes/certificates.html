@@ -8,8 +8,8 @@
   <h3 class="content-title">{{ certificate.name }}</h3>
 
   <ul class="content-certificate-details">
-    <li><h4>{{ certificate.issued }}</h4></li>
-    <li><h4>{% if certificate.expiry-exists %} | {{ certificate.expiry }} {% endif %}</h4></li>
+
+    <li><h4>{{ certificate.issued }} {% if certificate.expiry-exists %} - {{ certificate.expiry }} {% endif %}</h4></li>
     <li><h4>{% if certificate.id-exists %} | {{ certificate.id }} {% endif %}</h4></li>
   </ul>
 
