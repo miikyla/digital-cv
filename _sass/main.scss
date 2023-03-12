@@ -112,6 +112,7 @@ a {
     .content-executive-summary {  
       .executive-summary {
         text-align: justify;
+        font-size: $middle-font-px;
       }
     }
   }
@@ -119,6 +120,7 @@ a {
   .content-experience-dotpoint, .content-project-description, .content-certificate-description, .content-extra-curriculars-dotpoints, .content-award-description, .content-skills-dotpoint {
     text-align: justify;
     margin-top: calc($padding-px/8);
+    font-size: $middle-font-px;
   }
 
   .content-experience-details, .content-education-details, .content-certificates, .content-languages, .content-awards, .content-project-details, .content-extra-curriculars-details {
