@@ -1,6 +1,6 @@
 <section class="section-awards">
 
-<h2 class="section-header">Awards</h2>
+<h2 class="section-title">Awards</h2>
 <hr>
 
 {% for award in site.data.awards %}
@@ -14,7 +14,7 @@
       <li><h4>{{ award.year }}</h4></li>
     </ul>
 
-    <p>{{ award.description }}</p>
+    <p class="content-award-description">{{ award.description }}</p>
   </div>
 
 {% endfor %}

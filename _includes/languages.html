@@ -1,12 +1,12 @@
 <section class="section-languages">
 
-<h2>Languages</h2>
+<h2 class="section-title">Languages</h2>
 <hr>
     
 <div class="content-languages">
   {% for language in site.data.languages %}
   <h3 class="content-title">{{ language.language }}</h3>
-  <h4 class="content-proficiency">{{ language.proficiency }}</h4>
+  <p class="content-language-proficiency">{{ language.proficiency }}</p>
   {% endfor %}
 </div>
     

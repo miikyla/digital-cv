@@ -1,6 +1,6 @@
 <section class="section-skills">
 
-<h2 class="section-header">Skills</h2>
+<h2 class="section-title">Skills</h2>
 <hr>
 
 {% for skill in site.data.skills %}
@@ -10,7 +10,7 @@
 
     <ul class="content-skills-dotpoint">
       {% for dotpoint in skill.description %}
-        <li class="content-dotpoint">{{ dotpoint.dotpoint }}</li>
+        <li>{{ dotpoint.dotpoint }}</li>
       {% endfor %}
     </ul>
 </div>
