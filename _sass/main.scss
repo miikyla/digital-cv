@@ -28,6 +28,7 @@ a {
 .cv-wrapper {
   margin: 0 auto;
   background: $foreground-colour;
+  border-radius: 10px;
   max-width: $wrapper-width;
   padding: ($padding-px * 2);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -150,7 +151,6 @@ a {
     margin-top: 0;
     margin-bottom: $padding-px;
     padding: 0;
-    color: red;
   }
 }
 
