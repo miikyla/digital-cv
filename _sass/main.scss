@@ -27,24 +27,24 @@ a {
   margin: 0 auto;
   background: $foreground-colour;
   max-width: $wrapper-width;
-  padding: $padding-px * 2;
+  padding: calc($padding-px * 2);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
   h1 {
-    margin-top: $padding-px/2;
-    margin-bottom: $padding-px/2;
+    margin-top: calc($padding-px/2);
+    margin-bottom: calc($padding-px/2);
     font-size: $title-font-px;
   }
     
   h2, h3, h4 {
-    margin-top: $padding-px/4;
-    margin-bottom: $padding-px/4;
+    margin-top: calc($padding-px/4);
+    margin-bottom: calc($padding-px/4);
   }
 
   .section-title {
     text-transform: $title-text-transform;
     margin-top: calc(1.5 * $padding-px);
-    margin-bottom: $padding-px/2;
+    margin-bottom: calc($padding-px/2);
     font-size: $large-font-px;
   }
 
@@ -115,7 +115,7 @@ a {
 
   .content-experience-dotpoint, .content-project-description, .content-certificate-description, .content-extra-curriculars-dotpoints, .content-award-description, .content-skills-dotpoint {
     text-align: justify;
-    margin-top: $padding-px / 8;
+    margin-top: calc($padding-px/8);
     font-size: $middle-font-px;
   }
 
@@ -153,7 +153,7 @@ a {
 }
 
 .section-footer {
-  padding-top: $padding-px / 2;
+  padding-top: calc($padding-px / 2);
 
   .content-footer {
     color: $text-tertiary-colour;
