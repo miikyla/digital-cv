@@ -3,6 +3,7 @@
 # Site settings
 title:        "Example Example CV"
 description:  "CV of Example Example"
+baseurl:      "/miikyla.github.io"
 
 # Build settings
 markdown: kramdown

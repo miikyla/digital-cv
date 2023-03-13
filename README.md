@@ -72,6 +72,7 @@ Helpful tips and tricks
 - https://r3id.medium.com/jekyll-file-structure-f28c496f8dc0
 - https://codepen.io/hackzilla/pen/qaawde
 - https://jekyllrb.com/docs/step-by-step/07-assets/
+- https://github.com/orgs/community/discussions/22252#discussioncomment-3236067
 
 Style of resume that I liked the look of
 - https://www.pinterest.com.au/pin/993325261537571395/
